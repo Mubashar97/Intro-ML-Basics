@@ -1,0 +1,11 @@
+{
+  "hash": "f96e0444ad7ec228bcbf1f5e60da7bbe",
+  "result": {
+    "markdown": "---\ntitle: \"ML-Class_project-Blog\"\nlisting:\n  contents: posts\n  sort: \"date desc\"\n  type: default\n  categories: true\n  sort-ui: false\n  filter-ui: false\npage-layout: full\ntitle-block-banner: true\n---\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.linear_model import LinearRegression\n\n# Load data\ndata = pd.read_csv('https://raw.githubusercontent.com/dphi-official/Datasets/master/kc_house_data/kc_house_data.csv')\n\n# Split data into features (X) and target (y)\nX = data[['bedrooms', 'bathrooms', 'sqft_living', 'sqft_lot', 'floors']]\ny = data['price']\n\n# Split data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)\n\n# Train the model\nreg = LinearRegression().fit(X_train, y_train)\n\n# Make predictions on test data\ny_pred = reg.predict(X_test)\n\n# Plot actual vs. predicted values\nplt.scatter(y_test, y_pred)\nplt.xlabel(\"Actual house prices ($1000s)\")\nplt.ylabel(\"Predicted house prices ($1000s)\")\nplt.show()\n```\n\n::: {.cell-output .cell-output-display}\n![](index_files/figure-html/cell-2-output-1.png){width=600 height=443}\n:::\n:::\n\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

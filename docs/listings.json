@@ -1,0 +1,13 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/1.0 Machine Learning Introduction/index.html",
+      "/posts/2.0 Probability Theory and Random Variables/index.html",
+      "/posts/3.0 Clustering/index.html",
+      "/posts/4.0 Linear and non-linear regression/index.html",
+      "/posts/5.0 Classification/index.html",
+      "/posts/6.0 Anomaly Outlier detection/index.html"
+    ]
+  }
+]

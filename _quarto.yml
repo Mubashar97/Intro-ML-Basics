@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Machine learning"
+  description: "machine learning code and overview."
+  twitter-card: true
+  open-graph: true
+  reader-mode: true
+  page-navigation: true
+  repo-branch: main
+  repo-url: https://github.com/Mubashar97/Intro-ML-Basics
+  repo-actions: [source]
+
+  navbar:
+    search: true
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/Mubashar97
+      - icon: house
+        href: https://github.com/Mubashar97/Intro-ML-Basics
+      - icon: linkedin
+        href: https://www.linkedin.com/in/mmubashar/
+
+  sidebar:
+    style: "docked"
+    alignment: "left"
+    search: true
+    contents: auto
+    width: 1000px
+
+  page-footer: 
+    left: "M Mubashar" 
+    right: 
+      - icon: github
+        href: https://github.com/Mubashar97
+      - icon: linkedin 
+        href: https://www.linkedin.com/in/mmubashar/ 
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    toc-expand: 2
+    max-width: 1000px
+    html-math-method: katex
+    code-fold: false
+    code-summary: "Show the code"
+    code-tools: true

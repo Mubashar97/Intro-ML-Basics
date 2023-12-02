@@ -1,0 +1,44 @@
+{
+  "about.qmd": {
+    "about.html": "fa20ad22"
+  },
+  "index.qmd": {
+    "index.html": "717687f9"
+  },
+  "posts/post-with-code/index.qmd": {
+    "index.html": "7891955f"
+  },
+  "posts/welcome/index.qmd": {
+    "index.html": "f4b32115"
+  },
+  "posts/Machine Learning Introduction/index.qmd": {
+    "index.html": "e3cbc1dc"
+  },
+  "posts/Machine Learning Introduction/post-with-code/index.qmd": {
+    "index.html": "972467b4"
+  },
+  "posts/Machine Learning Introduction/index - Copy (2).qmd": {
+    "index - Copy (2).html": "c559404e"
+  },
+  "posts/Machine Learning Introduction/index - Copy.qmd": {
+    "index - Copy.html": "2fce0eae"
+  },
+  "posts/2.0 Probability Theory and Random Variables/index.qmd": {
+    "index.html": "bf097ede"
+  },
+  "posts/1.0 Machine Learning Introduction/index.qmd": {
+    "index.html": "c1833343"
+  },
+  "posts/3.0 Clustering/index.qmd": {
+    "index.html": "1ad17941"
+  },
+  "posts/4.0 Linear and non-linear regression/index.qmd": {
+    "index.html": "b1476e15"
+  },
+  "posts/5.0 Classification/index.qmd": {
+    "index.html": "c77667a0"
+  },
+  "posts/6.0 Anomaly Outlier detection/index.qmd": {
+    "index.html": "f95ef050"
+  }
+}

@@ -1,0 +1,15 @@
+---
+title: "About"
+image: Mub.png
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Mubashar97
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/mmubashar/
+---
+
+Greetings! I am Muhammad Mubashar Ashraf, a dedicated second-year PhD student in Engineering. My primary research interests encompass Computational Fluid Dynamics (CFD), Biomechanics, Fluid-Structure Interaction (FSI), and advanced numerical modeling.
